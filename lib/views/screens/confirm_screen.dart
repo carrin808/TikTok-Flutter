@@ -20,7 +20,9 @@ class ConfirmScreen extends StatefulWidget {
 
 class _ConfirmScreenState extends State<ConfirmScreen> {
   late VideoPlayerController controller;
+  // ignore: prefer_final_fields
   TextEditingController _songController = TextEditingController();
+  // ignore: prefer_final_fields
   TextEditingController _captionController = TextEditingController();
 
   UploadVideoController uploadVideoController =
